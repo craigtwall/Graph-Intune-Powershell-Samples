@@ -21,7 +21,7 @@ $resource = "https://graph.microsoft.com" # Microsoft Graph
 $scope = "openid" # Delegated User Impersonation
 $clientID = "14d82eec-204b-4c2f-b7e8-296a70dab67e" # Azure PowerShell
 $tenantID = "00000000-0000-0000-0000-000000001234" # AAD Tenant Name
-$myUPN = "craigtwall_dev@walldev.onmicrosoft.com" # User UPN, Optional, will pre-fill username on the login prompt
+$myUPN = "your_user@tenant.onmicrosoft.com" # User UPN, Optional, will pre-fill username on the login prompt
 
 $myAccessToken = Get-MsalToken -ClientId $clientID `
         -TenantId $tenantID `
