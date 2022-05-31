@@ -1,4 +1,4 @@
-# Graph-Intune-Samples
+# Graph-Intune-PowerShell-Samples
 Connecting to Intune Using MSAL, and Graph Examples.
 
 ADAL-based authentication is scheduled to end around the end of 2022. Most of the Intune documentation has not been fully written for MSAL-based authentication. 
